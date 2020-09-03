@@ -2,3 +2,5 @@ C:\Users\shark\Desktop\Assignment\tutorial_6\tutorial_6\x64\Debug\feature_comple
 C:\Users\shark\Desktop\Assignment\tutorial_6\tutorial_6\x64\Debug\feature_complete.pdb
 C:\Users\shark\Desktop\Assignment\Prototype Assignment\tutorial_6\x64\Debug\feature_complete.exe
 C:\Users\shark\Desktop\Assignment\Prototype Assignment\tutorial_6\x64\Debug\feature_complete.pdb
+C:\Users\shark\Documents\Prototype Assignment\x64\Debug\feature_complete.exe
+C:\Users\shark\Documents\Prototype Assignment\x64\Debug\feature_complete.pdb

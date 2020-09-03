@@ -5,6 +5,7 @@
 #include "airplane.h"
 #include "normal_crate.h"
 #include "crazy_crate.h"
+#include "new3d_object.h"
 #include "input.h"
 
 Game_Scene::Game_Scene()
@@ -24,6 +25,9 @@ Game_Scene::Game_Scene()
 	
 	Crazy_Crate* crazy_crate = new Crazy_Crate("Game_Object.Crate");
 	_game_objects[crazy_crate->id()] = crazy_crate;
+
+	New3d_Object* new3d_object = new New3d_Object("Game_Object.New3d");
+	_game_objects[new3d_object->id()] = new3d_object;
 }
 
 Game_Scene::~Game_Scene()

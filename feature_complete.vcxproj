@@ -162,6 +162,8 @@
     <ClCompile Include="input.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="new3d_mesh.cpp" />
+    <ClCompile Include="new3d_object.cpp" />
     <ClCompile Include="normal_crate.cpp" />
     <ClCompile Include="pointy_head.cpp" />
     <ClCompile Include="six_object.cpp" />
@@ -190,6 +192,8 @@
     <ClInclude Include="hexagon_mesh.h" />
     <ClInclude Include="input.h" />
     <ClInclude Include="mesh.h" />
+    <ClInclude Include="new3d_mesh.h" />
+    <ClInclude Include="new3d_object.h" />
     <ClInclude Include="normal_crate.h" />
     <ClInclude Include="pointy_head.h" />
     <ClInclude Include="six_object.h" />

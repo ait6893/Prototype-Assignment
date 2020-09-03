@@ -9,6 +9,7 @@
 #include "textured_3D_shader_program.h"
 #include "cube_mesh.h"
 #include "cube_same_mesh.h"
+#include "new3d_mesh.h"
 
 #define GLEW_STATIC
 #include <glew.h>
@@ -52,6 +53,9 @@ Assets::Assets()
 
 	Cube_Same_Mesh* cube_same_mesh = new Cube_Same_Mesh();
 	_assets.insert({ cube_same_mesh->id(), cube_same_mesh });
+
+	New3d_Mesh* new3d_mesh = new New3d_Mesh();
+	_assets.insert({ new3d_mesh->id(), new3d_mesh });
 
 	Shader* textured_3D_vertex_shader = new Shader("Shader.Textured.3D.Vertex", "Shaders/textured.3D.vertex_shader.glsl", Shader::Type::Vertex);
 	_assets.insert({textured_3D_vertex_shader->id(), textured_3D_vertex_shader});
